@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="formbox">
+            <img src="avatar.png" class="avatar">
+                <h1>Welcome Coders!! Please login below</h1>
+                                 
+        <form>
+            <label for="usernameInput">Username:</label><input type="text" id="usernameInput"><br/>
+            <label for="passwordInput">Password:</label><input type="text" id="passwordInput">
+            <br/>
+            <input type="submit" name="" value="Login" onclick="verifyUser()">
+            <a href="#"> Forgotten Password?</a>
+            <p id="message"></p>
+         </form>
+        </div>
+        <script>
+
+            function verifyUser(){
+                var username = document.getElementById("usernameInput").value;
+                var password = document.getElementById("passwordInput").value;
+
+                checkUserCreds(username, password);
+            }
+
+            function checkUserCreds(username, password){
+               var systemUsername = "Fresh";
+               var systemPassword = "Mohale";
+                
+               
+                if(username == systemUsername && password == systemPassword){
+                    document.getElementById("message").innerHTML = "Login Successful...";
+                } else {
+                    document.getElementById("message").innerHTML = "Login Failed. Username or Password Incorrect";
+                }
+            }
+        </script>
+
+    </body>
+</html>
