@@ -22,7 +22,7 @@ form{
 
 }
 
-.formbox p{
+.formbox .p{
     font-size: 18px;
     line-height: 20px;
     font-weight: lighter;
