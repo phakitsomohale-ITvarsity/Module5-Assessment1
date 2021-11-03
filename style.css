@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+form{
+    width: 320px;
+    height:380px;
+    background: #d45c3be3;
+    color: rgba(7, 3, 2, 0.877); 
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 50px);
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(14, 12, 1, 0.918);
+
+}
+
+.formbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.formbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(241, 140, 57);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(10, 7, 4);
+    font-size: 16px;
+}
+
+.formbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(231, 127, 30);
+    color: rgb(15, 6, 2);
+    font-size: 18px;
+    border-radius: 20px;   
+}
+
+.formbox input[type="submit"]:hover
+{
+cursor: pointer;
+background: rgb(129, 70, 60);
+color: beige;
+
+
+}
+
+.formbox p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    color: darkred;
+}
+
