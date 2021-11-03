@@ -22,6 +22,14 @@ form{
 
 }
 
+.formbox p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+}
+
 .avatar{
     width: 80px;
     height: 80px;
@@ -82,11 +90,5 @@ h1
     color: rgb(51, 3, 3);
 }
 
-.formbox p{
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: lighter;
-    font-style: italic;
-    color: black;
-}
+
 
